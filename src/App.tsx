@@ -1,4 +1,5 @@
 import './App.css'
+import {Link} from "react-router-dom";
 
 export default function Home() {
     return (<>
@@ -12,6 +13,10 @@ export default function Home() {
                 <br/>
                 <h3>Jag är Mark Griffiths, en legitimerad kiropraktor med över 35 års <br/> erfarenhet med ett
                     särskilt intresse för idrott och idrottsskador.</h3>
+
+                <Link to="/bokanu" className="bokaDiv">
+                        <h3>Boka nu</h3>
+                </Link>
             </article>
         </main>
         {/* Main End */}

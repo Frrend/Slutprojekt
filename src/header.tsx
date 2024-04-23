@@ -1,4 +1,5 @@
 import {FaFacebookSquare, FaLinkedin, FaTwitterSquare} from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 export function Header() {
     return <>
@@ -15,19 +16,17 @@ export function Header() {
         <nav>
             <div className="NavBar">
                 <div className="logoDiv">
-                    <a href="/"><img src="/logo.png" alt="Logo"/></a>
+                    <Link to="/"><img src="/logo.png" alt="Logo"/></Link>
                 </div>
                 <div className="navLinks">
-                    <a href="/Kiropraktik">Kiropraktik</a>
-                    <a href="/omOss">Om oss</a>
-                    <a href="/kontakta">Kontakta</a>
-                    <a href="/hittaOss">Hitta oss</a>
+                    <Link to="/Kiropraktik"><b>Kiropraktik</b></Link>
+                    <Link to="/omOss"><b>Om oss</b></Link>
+                    <Link to="/kontakta"><b>Kontakta</b></Link>
+                    <Link to="/hittaOss"><b>Kontakta</b></Link>
 
-                    <a href="/src/bokaNu">
-                        <div className="bokaDiv">
+                    <Link to="/bokanu" className="bokaDiv">
                             <h3>Boka nu</h3>
-                        </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </nav>
