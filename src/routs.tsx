@@ -1,9 +1,9 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import Home from "./App.tsx";
-import Bokanu from "./bokaNu.tsx";
+import Home from "./Pages/home.tsx";
+import Bokanu from "./Pages/bokaNu.tsx";
 import {Header} from "./header.tsx";
 import {Footer} from "./footer.tsx";
-import Kiropraktik from "./kiropraktik.tsx";
+import Kiropraktik from "./Pages/kiropraktik.tsx";
 
 const Router = () => {
     return (

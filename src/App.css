@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+/* General site styling */
 * {
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    font-family: "Inter", sans-serif;
 }
 
 h1 {
@@ -26,11 +29,18 @@ p {
     font-size: 30px;
 }
 
+hr {
+    background-color: #0096C7;
+    height: 5px;
+    border: none;
+}
+
 body {
-    font-family: "Inter", sans-serif;
     background-color: #F4F4F4;
 }
 
+
+/* Header styling */
 header {
     color: #F4F4F4;
 }
@@ -88,27 +98,7 @@ svg {
 }
 
 
-
-/*noinspection CssUnknownTarget*/
-main {
-    height: 950px;
-    background: rgba(33, 33, 33, 0.8) url(background.jpg) center;
-    background-blend-mode: darken;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-article {
-    height: 85%;
-    width: 1700px;
-}
-
-article a {
-    margin-top: 50px;
-}
-
+/* Footer styling */
 footer {
     height: 500px;
     display: flex;

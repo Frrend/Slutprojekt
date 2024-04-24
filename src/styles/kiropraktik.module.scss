@@ -1,0 +1,21 @@
+.main {
+  background: rgba(33, 33, 33, 0.9) url(/KiropraktikBackground.jpg) center;
+  display: flex;
+  flex-direction: row;
+  article {
+    background-color: #0096C7;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+    }
+    p {
+      margin: 10px;
+    }
+    hr {
+      background: #212121;
+      height: 2px;
+      width: 95%;
+      margin: auto;
+    }
+  }
+}
