@@ -1,0 +1,41 @@
+.main {
+  background: rgba(33, 33, 33, 1);
+  display: flex;
+  flex-direction: row;
+
+  article {
+    display: flex;
+    flex-direction: row;
+
+    a {
+      text-decoration: none;
+      background-color: #0096C7;
+      height: 50px;
+    }
+
+    p {
+      margin: 20px;
+    }
+
+    hr {
+      background: #0096C7;
+      height: 2px;
+      width: 95%;
+      margin: auto;
+    }
+
+
+    div {
+      margin: auto;
+
+      h2, p, img {
+        margin: 25px 0;
+      }
+
+      img {
+        width: 390px;
+        height: 530px;
+      }
+    }
+  }
+}
