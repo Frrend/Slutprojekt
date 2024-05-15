@@ -33,9 +33,9 @@ export default function Bokanu() {
                     'rehablitering och förebyggande behandling'. Rehabilitering är en individuell åtgärd riktad mot att
                     göra att den anställda kan utföra sina arbetsuppgifter utan problem eller återgå till jobbet så
                     snart som möjligt.
-                <br/>
-                <br/>
-                Kiropraktor behandling räknas inte som enkla friskvård när det gäller avdragsrätt för företag.
+                    <br/>
+                    <br/>
+                    Kiropraktor behandling räknas inte som enkla friskvård när det gäller avdragsrätt för företag.
                     Däremot är massage avdragsgillt för företag under rubriken friskvård. Vi har en erfaren och duktig
                     massör hos oss på kliniken.</p>
             </article>

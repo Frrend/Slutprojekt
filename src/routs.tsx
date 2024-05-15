@@ -5,6 +5,7 @@ import {Header} from "./header.tsx";
 import {Footer} from "./footer.tsx";
 import Kiropraktik from "./Pages/kiropraktik.tsx";
 import OmOss from "./Pages/omOss.tsx";
+import Kontakta from "./Pages/Kontakta.tsx";
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
                 <Route element={<Home/>} path={"/"}/>
                 <Route element={<Kiropraktik/>} path={"/Kiropraktik"}/>
                 <Route element={<OmOss/>} path={"/omOss"}/>
+                <Route element={<Kontakta/>} path={"/kontakta"}/>
 
                 <Route element={<Bokanu/>} path={"/Bokanu"}/>
             </Routes>

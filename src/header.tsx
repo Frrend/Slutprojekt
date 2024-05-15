@@ -22,7 +22,6 @@ export function Header() {
                     <Link to="/Kiropraktik"><b>Kiropraktik</b></Link>
                     <Link to="/omOss"><b>Om oss</b></Link>
                     <Link to="/kontakta"><b>Kontakta</b></Link>
-                    <Link to="/hittaOss"><b>Kontakta</b></Link>
 
                     <Link to="/bokanu" className="bokaDiv">
                             <h3>Boka nu</h3>

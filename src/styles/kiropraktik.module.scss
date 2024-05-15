@@ -1,5 +1,6 @@
 .main {
-  background: rgba(33, 33, 33, 0.9) url(/KiropraktikBackground.jpg) center;
+  //noinspection CssUnknownTarget
+  background: rgba(33, 33, 33, 0.9) url(/kiropraktikBackground.jpg) center;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -15,6 +16,7 @@
 
     p {
       margin: 20px;
+      text-shadow: #212121 1px 1px 2px;
     }
 
     hr {
