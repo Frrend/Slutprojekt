@@ -8,5 +8,21 @@
   article a {
     margin-top: 50px;
   }
+
+  h1, h2, h3 {
+    text-shadow: #212121 1px 1px 2px;
+  }
+}
+
+/* iPhone SE Portrait*/
+@media screen and (min-width: 360px) and (max-width: 700px) and (orientation: portrait) {
+
+}
+
+
+/* iPad Portrait */
+@media screen and (min-width: 700px) and (max-width: 900px) and (orientation: portrait) {
+
+
 }
 

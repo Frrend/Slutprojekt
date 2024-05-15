@@ -6,13 +6,18 @@ main {
   padding: 100px 50px;
 
   article {
-      h2 {
-        margin: 25px 0;
-        font-weight: bold;
-      }
 
-      p {
-        margin: 25px 0;
-      }
+    h1, h2, h3 {
+      text-shadow: #212121 1px 1px 2px;
+    }
+
+    h2 {
+      margin: 25px 0;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 25px 0;
+    }
   }
 }
