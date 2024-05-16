@@ -1,18 +1,33 @@
 import styles from "../styles/omOss.module.scss";
+import {motion} from "framer-motion";
 
 export default function OmOss() {
     return (<>
         {/* Main */}
         <main className={styles.main}>
             <article>
-                <h2>Kiropraktorkliniken</h2>
-                <p>Kiropraktorkliniken i Kristinehamn öppnade 1987 på Södra Torget.
+                <motion.h2
+                    initial={{opacity: 0, x: +50}}
+                    animate={{opacity: 1, x: 0}}
+                    transition={{duration: .5}}
+                >Kiropraktorkliniken
+                </motion.h2>
+                <motion.p
+                    initial={{opacity: 0, x: +50}}
+                    animate={{opacity: 1, x: 0}}
+                    transition={{duration: .5}}
+                >Kiropraktorkliniken i Kristinehamn öppnade 1987 på Södra Torget.
                     <br/>
                     <br/>
                     1998 flyttade vi till större lokaler och vår nuvarande klinik på andra sidan av torget på
                     Kungsgatan
-                    38.</p>
-                <p>Bild från en artikel i NKP 1989 om kiropraktor legitimation tillsammans med kiropraktor Hanne
+                    38.
+                </motion.p>
+                <motion.p
+                    initial={{opacity: 0, x: +50}}
+                    animate={{opacity: 1, x: 0}}
+                    transition={{duration: .5}}
+                >Bild från en artikel i NKP 1989 om kiropraktor legitimation tillsammans med kiropraktor Hanne
                     Nielsen.
                     <br/>
                     <br/>
@@ -22,8 +37,13 @@ export default function OmOss() {
                     med
                     ett antal lokala företag och med flera försäkringsbolag när det gäller privat
                     sjukvårdsförsäkring.
-                </p>
-                <img src="/omOssPic.jpg" alt=""/>
+                </motion.p>
+                <motion.img
+                    initial={{opacity: 0, x: +50}}
+                    animate={{opacity: 1, x: 0}}
+                    transition={{duration: .5}}
+
+                    src="/omOssPic.jpg" alt=""/>
             </article>
         </main>
         {/* Main End */}
