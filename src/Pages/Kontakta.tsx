@@ -5,7 +5,7 @@ export default function Kontakta() {
     return (<>
         {/* Main */}
         <main className={styles.main}>
-            <div className={styles.parent}>
+            <form className={styles.parent}>
                 <div className={styles.div1}>
                     <h3>Namn*</h3>
                     <input type="text"/>
@@ -20,13 +20,14 @@ export default function Kontakta() {
                 </div>
                 <div className={styles.div4}>
                     <h3>Telefon</h3>
-                    <input type="text"/>
+                    <input type="number"/>
                 </div>
                 <div className={styles.div5}>
                     <h3>Meddelande*</h3>
                     <input type="text"/>
                 </div>
-            </div>
+                <button>Send</button>
+            </form>
         </main>
         {/* Main End */}
     </>)

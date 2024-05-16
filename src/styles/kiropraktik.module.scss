@@ -6,34 +6,21 @@
   flex-direction: row;
 
   article {
-    background-color: #0096C7;
-    border-radius: 10px;
-    margin: auto;
-
-    a {
-      text-decoration: none;
-    }
-
-    p {
-      margin: 20px;
-      text-shadow: #212121 1px 1px 2px;
-    }
-
-    hr {
-      background: #212121;
-      height: 2px;
-      width: 95%;
-      margin: auto;
-    }
-  }
-
-  div {
-    margin: auto;
-
     iframe {
       width: 1024px;
       height: 576px;
       border-radius: 10px;
+    }
+  }
+}
+
+/* iPad Portrait */
+@media screen and (min-width: 700px) and (max-width: 900px) and (orientation: portrait) {
+  .main {
+    article {
+      iframe {
+        width: 700px;
+      }
     }
   }
 }
