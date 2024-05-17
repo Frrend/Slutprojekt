@@ -7,27 +7,24 @@ export default function OmOss() {
         <main className={styles.main}>
             <article>
                 <motion.h2
-                    initial={{opacity: 0, x: +50}}
+                    initial={{opacity: 0, x: 50}}
                     animate={{opacity: 1, x: 0}}
                     transition={{duration: .5}}
                 >Kiropraktorkliniken
                 </motion.h2>
                 <motion.p
-                    initial={{opacity: 0, x: +50}}
+                    initial={{opacity: 0, x: 50}}
                     animate={{opacity: 1, x: 0}}
-                    transition={{duration: .5}}
-                >Kiropraktorkliniken i Kristinehamn öppnade 1987 på Södra Torget.
+                    transition={{duration: .5}}>
+                    Kiropraktorkliniken i Kristinehamn öppnade 1987 på Södra Torget.
                     <br/>
                     <br/>
                     1998 flyttade vi till större lokaler och vår nuvarande klinik på andra sidan av torget på
                     Kungsgatan
                     38.
-                </motion.p>
-                <motion.p
-                    initial={{opacity: 0, x: +50}}
-                    animate={{opacity: 1, x: 0}}
-                    transition={{duration: .5}}
-                >Bild från en artikel i NKP 1989 om kiropraktor legitimation tillsammans med kiropraktor Hanne
+                    <br/>
+                    <br/>
+                    Bild från en artikel i NKP 1989 om kiropraktor legitimation tillsammans med kiropraktor Hanne
                     Nielsen.
                     <br/>
                     <br/>
@@ -39,10 +36,9 @@ export default function OmOss() {
                     sjukvårdsförsäkring.
                 </motion.p>
                 <motion.img
-                    initial={{opacity: 0, x: +50}}
+                    initial={{opacity: 0, x: 50}}
                     animate={{opacity: 1, x: 0}}
                     transition={{duration: .5}}
-
                     src="/omOssPic.jpg" alt=""/>
             </article>
         </main>

@@ -1,4 +1,4 @@
-import '../App.css'
+import '../App.scss'
 import {Link} from "react-router-dom";
 import styles from "../styles/home.module.scss"
 import {motion} from "framer-motion"
@@ -29,7 +29,7 @@ export default function Home() {
                 >Jag är Mark Griffiths, en legitimerad kiropraktor med över 35 års <br/> erfarenhet med ett
                     särskilt intresse för idrott och idrottsskador.</motion.h3>
 
-                <Link to="/bokanu" className="bokaDiv">
+                <Link to="/bokanu" className="bokaDiv buttonAnimation">
                     <h3>Boka nu</h3>
                 </Link>
             </article>

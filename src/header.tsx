@@ -23,7 +23,7 @@ export function Header() {
                     <Link to="/omOss"><b>Om oss</b></Link>
                     <Link to="/kontakta"><b>Kontakta</b></Link>
 
-                    <Link to="/bokanu" className="bokaDiv">
+                    <Link to="/bokanu" className="bokaDiv buttonAnimation">
                             <h3>Boka nu</h3>
                     </Link>
                 </div>

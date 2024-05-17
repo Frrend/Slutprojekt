@@ -4,85 +4,54 @@ main {
 
   .parent {
     display: grid;
-    grid-template-columns: auto auto;
-
-    div {
-      display: flex;
-      flex-direction: column;
-      margin: 50px;
-    }
-
-    .div5 {
-      grid-area: 3 / span 2;
-
-      input {
-        width: 1100px;
-        height: 200px;
-      }
-    }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 
     h3 {
       font-weight: normal;
       margin-bottom: 5px;
     }
 
-    input {
+    input, button, textarea {
       font-size: 30px;
-      margin-top: 10px;
-      width: 500px;
-      height: 100px;
       border-radius: 10px;
+      padding: 10px;
     }
-    button{
-      grid-area: 4 / span 2;
+
+    label:has(textarea) {
+      grid-column: span 2;
+      display: grid;
+
+      textarea {
+        resize: vertical;
+        font-size: 20px;
+      }
+    }
+
+    button {
+      grid-column: span 2;
       background-color: #0096C7;
-      padding: 10px 20px;
-      margin: 10px 2px;
-      cursor: pointer;
       text-align: center;
       text-decoration: none;
       outline: none;
       color: #fff;
       border: none;
-      border-radius: 15px;
+      width: fit-content;
+      padding: 10px 40px;
+      cursor: pointer;
+    }
+  }
+
+  .success {
+    grid-column: span 2;
+    text-align: center;
+    display: grid;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    h3 {
+      grid-column: span 2;
     }
   }
 }
 
-/* iPad Portrait */
-@media screen and (min-width: 700px) and (max-width: 900px) and (orientation: portrait) {
-  main {
-    display: flex;
-    justify-content: center;
-
-    .parent {
-      display: grid;
-      grid-template-columns: auto auto;
-
-      div {
-        display: flex;
-        flex-direction: column;
-        margin: 50px;
-      }
-
-      .div5 {
-        grid-area: 3 / span 2;
-
-        input {
-          width: 700px;
-          height: 200px;
-        }
-      }
-
-      h3 {
-        font-weight: normal;
-        margin-bottom: 5px;
-      }
-
-      input {
-        font-size: 30px;
-        width: 300px;
-      }
-    }
-  }
-}

@@ -5,8 +5,10 @@
   background-blend-mode: darken;
   background-size: cover;
 
-  article a {
-    margin-top: 50px;
+  article {
+    a{
+      margin-top: 50px;
+    }
   }
 
   h1, h2, h3 {
