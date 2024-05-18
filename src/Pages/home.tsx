@@ -3,6 +3,10 @@ import {Link} from "react-router-dom";
 import styles from "../styles/home.module.scss"
 import {motion} from "framer-motion"
 
+/**
+ * Home component represents the home page of the application.
+ * It includes information about treatments offered by Kiropraktorkliniken.
+ */
 export default function Home() {
     return (<>
         {/* Main */}
@@ -37,3 +41,4 @@ export default function Home() {
         {/* Main End */}
     </>)
 }
+

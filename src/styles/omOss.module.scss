@@ -12,15 +12,12 @@
   }
 
   article {
-    margin: auto;
-
     h2, p, img {
       margin: 25px 0;
     }
 
     img {
-      width: 390px;
-      height: 530px;
+      max-width: 100%;
     }
   }
 }

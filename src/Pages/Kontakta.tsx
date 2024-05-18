@@ -2,6 +2,10 @@ import '../App.scss'
 import styles from "../styles/kontakta.module.scss"
 import {FormEvent, useState} from "react";
 
+/**
+ * Kontakta component represents the contact section of the application.
+ * It includes a form for users to submit their contact information and messages.
+ */
 export default function Kontakta() {
     const [message, setMessage] = useState<string | undefined>(undefined)
 
@@ -23,6 +27,7 @@ export default function Kontakta() {
 
         setMessage("Message sent")
     }
+
     return (
         <main className={styles.main}>
 
@@ -59,3 +64,4 @@ export default function Kontakta() {
         </main>
     )
 }
+

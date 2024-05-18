@@ -1,6 +1,10 @@
 import styles from "../styles/bokaNu.module.scss"
 import {motion} from "framer-motion"
 
+/**
+ * Bokanu component represents the booking section of the application.
+ * It provides information about booking appointments and pricing.
+ */
 export default function Bokanu() {
     return (<>
         {/* Main */}
@@ -76,3 +80,4 @@ export default function Bokanu() {
         {/* Main End */}
     </>)
 }
+
