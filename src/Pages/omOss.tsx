@@ -39,7 +39,7 @@ export default function OmOss() {
                     initial={{opacity: 0, x: 50}}
                     animate={{opacity: 1, x: 0}}
                     transition={{duration: .5}}
-                    src="/omOssPic.jpg" alt=""/>
+                    src="/omOssPic.webp" alt=""/>
             </article>
         </main>
         {/* Main End */}

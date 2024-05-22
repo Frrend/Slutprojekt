@@ -6,9 +6,9 @@ export function Header() {
         {/* Header */}
         <header>
             <div className="socialBar">
-                <a href="https://m.facebook.com/people/Kiropraktorkliniken-Kristinehamn/100039718971452/"><FaFacebookSquare/></a>
-                <a href="https://linkedin.com"><FaLinkedin/></a>
-                <a href="https://twitter.com"><FaTwitterSquare/></a>
+                <a aria-label={"Facebook link"} href="https://m.facebook.com/people/Kiropraktorkliniken-Kristinehamn/100039718971452/"><FaFacebookSquare/></a>
+                <a aria-label={"LinkedIn link"} href="https://linkedin.com"><FaLinkedin/></a>
+                <a aria-label={"Twitter link"} href="https://twitter.com"><FaTwitterSquare/></a>
             </div>
         </header>
         {/* Header End */}
@@ -16,7 +16,7 @@ export function Header() {
         <nav>
             <div className="NavBar">
                 <div className="logoDiv">
-                    <Link to="/"><img src="/logo.png" alt="Logo"/></Link>
+                    <Link to="/"><img src="/logo.webp" alt="Logo"/></Link>
                 </div>
                 <div className="navLinks">
                     <Link to="/Kiropraktik"><b>Kiropraktik</b></Link>
