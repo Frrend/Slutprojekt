@@ -1,6 +1,10 @@
 import styles from "../styles/omOss.module.scss";
 import {motion} from "framer-motion";
 
+/**
+ * OmOss component represents the "About Us" section of the application.
+ * It provides information about Kiropraktorkliniken including its history, location, and services.
+ */
 export default function OmOss() {
     return (<>
         {/* Main */}
@@ -45,4 +49,3 @@ export default function OmOss() {
         {/* Main End */}
     </>)
 }
-

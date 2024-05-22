@@ -7,7 +7,12 @@ import Kiropraktik from "./Pages/kiropraktik.tsx";
 import OmOss from "./Pages/omOss.tsx";
 import Kontakta from "./Pages/Kontakta.tsx";
 
-const Router = () => {
+/**
+ * Router component handles routing within the application.
+ * It uses BrowserRouter from react-router-dom to enable client-side routing.
+ * The component renders a layout with a header, routes to different pages, and a footer.
+ */
+function Router() {
     return (
         <BrowserRouter>
             <Header/>
@@ -16,13 +21,12 @@ const Router = () => {
                 <Route element={<Kiropraktik/>} path={"/Kiropraktik"}/>
                 <Route element={<OmOss/>} path={"/omOss"}/>
                 <Route element={<Kontakta/>} path={"/kontakta"}/>
-
                 <Route element={<Bokanu/>} path={"/Bokanu"}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
     );
-};
+}
 
 
 export default Router;

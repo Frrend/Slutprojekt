@@ -1,3 +1,7 @@
+/**
+ * Footer component represents the footer section of the application.
+ * It includes information about opening hours, clinic hours, and contact details.
+ */
 export function Footer() {
     return <>
         {/* Footer */}
