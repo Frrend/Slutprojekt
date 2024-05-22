@@ -36,7 +36,7 @@ export function Header() {
         <nav>
             <div className="NavBar">
                 <div className="logoDiv">
-                    <Link to="/"><img src="/logo.webp" alt="Logo"/></Link>
+                    <Link to="/"><img src="/logo.webp" alt="Company_logo"/></Link>
                 </div>
 
                 <div className="nav-iconDiv" onClick={() => setOpen(!open)}>
